@@ -2,8 +2,8 @@ name: Cypress e2e Tests
 on: 
   workflow_dispatch:
     inputs:
-      spec: cypress/e2e/*
-        default:
+      spec: 
+        default: cypress/e2e/*
 jobs:
   tests:
     runs-on: ubuntu-latest
